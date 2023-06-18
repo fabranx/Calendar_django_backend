@@ -191,11 +191,13 @@ SITE_ID = 1
 #
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:6173',
+    'https://fab-calendar.netlify.app/',
 ]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:6173',
     'http://localhost:8080',
+    'https://fab-calendar.netlify.app/',
 ]
 #
 CORS_ALLOW_CREDENTIALS = True  # per invio token tramite cookie httponly
